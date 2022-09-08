@@ -1,0 +1,18 @@
+PLAY [test acl] ****************************************************************
+TASK [testacl-ping] ************************************************************
+[DEPRECATION WARNING]: Param "commit" is deprecated; use the various commit 
+modules. This feature will be removed from paloaltonetworks.panos in version 
+3.0.0. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+[DEPRECATION WARNING]: Classic provider params are deprecated; use "provider" 
+instead. This feature will be removed from paloaltonetworks.panos in version 
+3.0.0. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+[DEPRECATION WARNING]: Please use the commit modules instead of the commit 
+option. This feature will be removed from paloaltonetworks.panos in version 
+3.0.0. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+ok: [10.44.229.102]
+PLAY RECAP *********************************************************************
+10.44.229.102              : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
